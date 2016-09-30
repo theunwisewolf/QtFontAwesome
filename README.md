@@ -12,8 +12,8 @@ Now you need to initialise everything using the FontAwesome::Init() function in 
 And then you can use the icons anywhere in your application.
 
 There are two steps:
-1. First set the font of the element to FontAwesome::Font
-2. Set the icon using the FontAwesome::Icon( "icon-name" )
+* First set the font of the element to FontAwesome::Font
+* Set the icon using the FontAwesome::Icon( "icon-name" )
 
 Icon names are same as on FontAwesome's website
 Enjoy!
