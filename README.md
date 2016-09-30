@@ -18,11 +18,10 @@ There are two steps:
 Icon names are same as on FontAwesome's website
 Enjoy!
 
-[code]
-#include <FontAwesomeIcons.h>
+    #include <FontAwesomeIcons.h>
 
-void setUpIcons()
-{
+    void setUpIcons()
+    {
 	// This method must be called only once in the entire application!
 	FontAwesome::Init();
 
@@ -31,6 +30,4 @@ void setUpIcons()
 
 	ui.someOtherButton->setFont(FontAwesome::Font);
 	ui.someOtherButton->setText(FontAwesome::Icon("pause"));
-}
-
-[/code]
+    } 
