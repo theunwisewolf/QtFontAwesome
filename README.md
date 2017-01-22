@@ -22,12 +22,12 @@ Enjoy!
 
     void setUpIcons()
     {
-	// This method must be called only once in the entire application!
-	FontAwesome::Init();
+		// This method must be called only once in the entire application!
+		FontAwesome::Init();
 
-	ui.someButton->setFont(FontAwesome::Font);
-	ui.someButton->setText(FontAwesome::Icon("play"));
+		ui.someButton->setFont(FontAwesome::Font);
+		ui.someButton->setText(FontAwesome::Icon("play"));
 
-	ui.someOtherButton->setFont(FontAwesome::Font);
-	ui.someOtherButton->setText(FontAwesome::Icon("pause"));
+		ui.someOtherButton->setFont(FontAwesome::Font);
+		ui.someOtherButton->setText(FontAwesome::Icon("pause"));
     } 
