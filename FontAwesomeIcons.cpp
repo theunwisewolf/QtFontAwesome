@@ -10,15 +10,10 @@ QChar FontAwesome::Icon(std::string key)
 
 void FontAwesome::Init()
 {
-	// First we add the font
 	QFontDatabase::addApplicationFont(":/Fonts/Resources/Fonts/FontAwesome.ttf");
 
-	// Initialize the font
 	Font.setFamily("FontAwesome");
 
-	std::map<char*, int> mymap;
-
-	// Initialize the Map
 	IconMap["glass"] = 0xf000;
 	IconMap["music"] = 0xf001;
 	IconMap["search"] = 0xf002;
